@@ -1,0 +1,79 @@
+/* ===============================
+   Hero Section Wrapper
+================================== */
+.hero-wrapper {
+  padding: 40px;
+  background-color: #ffffff;
+}
+
+/* ===============================
+   Hero Section Layout
+================================== */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d9fdd3; /* Light green background */
+  padding: 40px;
+  border-radius: 10px;
+  flex-wrap: wrap; /* Responsive */
+}
+
+/* ===============================
+   Hero Text Area
+================================== */
+.hero-text {
+  flex: 1;
+  font-size: 18px;
+  padding: 50px;
+}
+
+.hero-text h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 25px;
+  color: #333;
+}
+
+/* ===============================
+   Hero Image Area
+================================== */
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+/* ===============================
+   Button Section
+================================== */
+.hero-button-container {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.button-h2 {
+  margin-bottom: 40px;
+}
+
+/* ===============================
+   Shop Now Button
+================================== */
+.shop-now-btn {
+  background-color: #00c853;
+  color: white;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.shop-now-btn:hover {
+  background-color: #00b44b;
+}

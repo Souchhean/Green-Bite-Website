@@ -1,0 +1,186 @@
+/* ===== Layout Containers ===== */
+.layout-container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.layout {
+  display: flex;
+  flex: 1;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* ===== Sidebar ===== */
+.sidebar {
+  width: 240px;
+  height: 100vh;
+  background-color: #f9fdf9;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
+}
+
+/* ===== Logo Area ===== */
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.logo-img {
+  width: 60px;
+  height: auto;
+}
+
+.logo-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #158c19; /* Light green */
+}
+
+/* ===== Search Box ===== */
+.search-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.search-box {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.search-btn {
+  background-color: #e6f4ea;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===== Category Dropdown ===== */
+.category-dropdown {
+  width: 90%;
+  margin: 16px auto;
+  background-color: #e8f5e9;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #2e7d32;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.category-list {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0;
+}
+
+.category-list li {
+  padding: 12px 14px;
+  border-bottom: 1px solid #e0e0e0;
+  font-weight: 500;
+  text-align: left;
+}
+
+.category-list li a {
+  color: #1a237e;
+  text-decoration: none;
+  display: block;
+  transition: all 0.2s ease;
+}
+
+.category-list li:hover {
+  background-color: #f1f8e9;
+}
+
+.category-list li a:hover {
+  color: #2e7d32;
+  font-weight: 600;
+}
+
+
+/* ===== Main Content Wrapper ===== */
+.main-content-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page-content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  background-color: #d4edda;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+.navbar-center {
+  display: flex;
+  gap: 20px;
+  font-size: 1.1rem;
+}
+
+.navbar-center a {
+  text-decoration: none;
+  color: #333;
+}
+
+.navbar-center a:hover {
+  color: #2e7d32;
+}
+
+.navbar-center span {
+  color: #888;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+/* ===== Icons and Badges ===== */
+.icon {
+  font-size: 1.4rem;
+  color: #0f6e02;
+  cursor: pointer;
+  position: relative;
+}
+
+.icon-wrapper {
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: -6px;
+  right: -10px;
+  background-color: #ff4d4d;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
